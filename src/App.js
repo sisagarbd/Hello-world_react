@@ -10,7 +10,9 @@ class App extends Component {
       { bookName: "The Da Vinci", writer: "Dan Brown" },
       { bookName: "The Alchemist", writer: "Paulo Colelho" }
     ]
+
   }
+
 
 
   changeBookState = () => {
@@ -27,6 +29,7 @@ class App extends Component {
 
   render() {
     console.log(this.state);
+    console.log("Test Github: ");
     return (
       < div className="App" >
         <h1>Book List</h1>
